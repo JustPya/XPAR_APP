@@ -10,6 +10,11 @@ public class JsonDataClass
 }
 
 [System.Serializable]
+public class SongRequest
+{
+    public Song message;
+}
+[System.Serializable]
 public class Song
 {
     public List<Instrument> instruments;
