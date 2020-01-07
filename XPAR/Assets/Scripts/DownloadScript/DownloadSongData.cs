@@ -8,8 +8,8 @@ using TMPro;
 
 public class DownloadSongData : MonoBehaviour {
     
-    private string URL_SONG = "http://192.168.1.6:3000/song/";
-    private string URL = "http://192.168.1.6:3000/download/";
+    private string URL_SONG = "http://192.168.1.4:3000/song/";
+    private string URL = "http://192.168.1.4:3000/download/";
     private Song song = new Song();
     private string idSong;
     public Text progressText;
@@ -26,6 +26,7 @@ public class DownloadSongData : MonoBehaviour {
         counter = 0;
         isLoadingGameScene = false;
         idSong = PlayerPrefs.GetString("idActualSong");
+        Debug.Log(idSong);
         StartCoroutine(getSongData());
     }
     void Update() {

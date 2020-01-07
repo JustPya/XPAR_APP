@@ -2,6 +2,9 @@ Android
 PlayerPath?
 D:/Escritorio/xpar.apk
 SceneListBegin?
+Assets/Scenes/Start.unity
+Assets/Scenes/ListSongScene.unity
+Assets/Scenes/DownloadScene.unity
 Assets/Scenes/GameScene.unity
 SceneListEnd?
 71bb6a6b6c8f052f948db64c7dd3ca4f VuforiaScripts.dll:.BoundingBoxRenderer
